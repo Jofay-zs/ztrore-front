@@ -1,12 +1,15 @@
-import { Route, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 import IndexHome from "./pages/home/index";
+import { useEffect } from "react";
+import Web3 from "web3";
+import General from "./layouts/general";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" exact element={<IndexHome/>} />
-      </Routes>
+      <General>
+        <Route path="/" exact component={IndexHome} />
+      </General>
     </>
   );
 }

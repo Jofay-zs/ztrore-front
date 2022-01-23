@@ -33,7 +33,7 @@ I thought of two options for the future of this project.
 - ## [React](https://reactjs.org/)
 - ## [React-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 - ## [Tailwind](https://tailwindcss.com/)
-- ## [web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6/docs#install)
+- ## [web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6/)
 - ## [Metamask](https://metamask.io/)
     
 
@@ -41,3 +41,5 @@ I thought of two options for the future of this project.
 1. Create the react app with the necessary dependencies.
 
 # Documentation
+
+## [EIP-1193](https://eips.ethereum.org/EIPS/eip-1193)
