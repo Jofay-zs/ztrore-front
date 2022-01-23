@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# ztrore
+This project is separated in two repositories, one for the backend and other for the frontend. To navigate between the two repositories use these links:
+- Frontend: [not yet]()
+- Backend: [https://github.com/Jofay-zs/ztrore](https://github.com/Jofay-zs/ztrore)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this README.md you will find a documentation more focused on the frontend.
+- [Description](#description)
+- [Tools and technologies used](#tools-and-technologies-used)
+- [My path](#my-path)
+- [Documentation](#documentation)
 
-## Available Scripts
+# Description
+## What was the goal of the project ? 😀
+Develop a DApp (Desentralized Application), where anyone could enter and could generate and obtain their NFT. Also encourage people to develop with web3 technologies.
 
-In the project directory, you can run:
+## What does the project do ? 🏪
+ztrore is a NFT marketplace compatible with the EIP 721 standar of Ethereum. Where you can generate and obtain an NFT. This are all the NFTs generated: [https://testnets.opensea.io/assets/ztrore](https://testnets.opensea.io/assets/ztrore)
 
-### `npm start`
+## How and what was it build with ? 🥣
+It was created with technologies and tools like: Solidity, Open Zeppelin, Hardhat, React, JS, Tailwind, a lot of documetation and videos. To see more about the tools and technologies [scroll down 🔽](#tools-and-technologies-used).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To see about my path [scroll down 🔽](#my-path)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical difficulties ⚗️
+The biggest problem I found was in smart contracts, due to my little knowledge on them. Also I have some difficulties writing the documentation, due to my regular English.
 
-### `npm test`
+## Improvements for the future 🔮
+I thought of two options for the future of this project.
+1. Use other APIs to generate different NFTs, some examples of APIs that I found was, a kitten API generator, a Robot API generator and a Monster API generator.
+2. Which personally I consider more difficult, but exciting, is re-create the entire app with assets created by me, and adding more metadata, to create more unique and different NFTs. Explore smart contracts more and use more features of the technologies that I used. Also I can implement chainlink so the generation of nft is not predictible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tools and technologies used
+- ## [React](https://reactjs.org/)
+- ## [React-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
+- ## [Tailwind](https://tailwindcss.com/)
+- ## [web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6/docs#install)
+- ## [Metamask](https://metamask.io/)
+    
 
-### `npm run build`
+# My path
+1. Create the react app with the necessary dependencies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Documentation
