@@ -5,16 +5,16 @@ import nft from "../images/nft.png";
 
 const Navbar = () => {
   return (
-    <nav className="w-full sticky top-0 flex justify-between px-16 py-4 border border-b-2 border-color2 items-center">
+    <nav className="w-full sm:absolute sticky flex flex-col sm:flex-row top-0  justify-between sm:px-16 py-4 border border-b-2 border-color2 items-center bg-color1">
       <section className="flex items-center">
         <div className="flex items-center justify-center">
           <img src={nft} alt="NFT" className="w-10" />
         </div>
-        <Link to="/" className="text-xl px-5">
+        <Link to="/" className="text-xl px-6 font-bold">
           Home
         </Link>
-        <Link to="/search" className="text-xl px-5">
-          Search
+        <Link to="/gallery" className="text-xl px-6 font-bold">
+          Gallery
         </Link>
       </section>
       <section className="">

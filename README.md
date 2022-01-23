@@ -1,4 +1,5 @@
 # ztrore
+![Cover-image](../ztrore-front/src/images/cover2.png)
 This project is separated in two repositories, one for the backend and other for the frontend. To navigate between the two repositories use these links:
 - Frontend: [not yet]()
 - Backend: [https://github.com/Jofay-zs/ztrore](https://github.com/Jofay-zs/ztrore)
@@ -43,3 +44,4 @@ I thought of two options for the future of this project.
 # Documentation
 
 ## [EIP-1193](https://eips.ethereum.org/EIPS/eip-1193)
+## JSON-RPC

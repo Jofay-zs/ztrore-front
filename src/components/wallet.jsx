@@ -41,14 +41,15 @@ const Wallet = () => {
     <div className="">
       {active ? (
         <div className="flex font-bold text-lg bg-color2 rounded-lg px-4 py-2">
-          <div>
-            <div className="flex justify-between">
+          <div className="flex">
+            <div>
               💰{balance}
-              <button onClick={disconnect}>
-                <i className="fas fa-times text-red-500 ml-2"></i>
-              </button>
+              {" ~ "}
             </div>
             <Link to="/search">📜{truncatedAddress}</Link>
+            <button onClick={disconnect}>
+              <i className="fas fa-times text-red-500 ml-2"></i>
+            </button>
           </div>
         </div>
       ) : (
